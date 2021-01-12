@@ -13,18 +13,11 @@ class _HomeState extends State<Home> {
     return Scaffold(
       /// making app bar of first page
       appBar: AppBar(
-        backgroundColor: Color(0xFF23252E),
-        leading: Icon(
-          Icons.menu,
-          size: 30,
-        ),
+        backgroundColor: Colors.black,
         title: Text("Adopt Me"),
         centerTitle: true,
         actions: [
-          Icon(
-            Icons.search,
-            size: 30,
-          ),
+  
           SizedBox(
             width: 10,
           )
@@ -92,7 +85,7 @@ class _HomeState extends State<Home> {
                   text1: "Condition: ",
                   text2: "No sickness",
                 ),
-                // BodyText(text1: "Description: ",text2:"This hedgehog cannot dance, pls adopt it so i can find another hedgehog( that can dane obviously) while not making it jealous"),
+              
                 Padding(
                   padding: const EdgeInsets.all(10.0),
                   child: Row(
